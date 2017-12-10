@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  opengraph.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - redis=10.0.75.1:16379
+      - database=0
+    ports:
+      - "80"

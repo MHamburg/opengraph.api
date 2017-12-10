@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  opengraph.api:
+    image: opengraph.api
+    build:
+      context: .
+      dockerfile: OpenGraph.Api/Dockerfile
